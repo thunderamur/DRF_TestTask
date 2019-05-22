@@ -5,6 +5,7 @@
 #    pip-compile
 #
 click==7.0                # via pip-tools
+django-filter==2.1.0
 django==2.2.1
 djangorestframework==3.9.4
 pip-tools==3.7.0

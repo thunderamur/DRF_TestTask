@@ -10,7 +10,7 @@ from mainapp.models import Company, Product
 
 class ProductViewSet(mixins.RetrieveModelMixin,
                      viewsets.GenericViewSet):
-    queryset = Product.objects.all().order_by('name')
+    queryset = Product.objects.order_by('name')
     serializer_class = serializers.ProductSerializer
 
 
