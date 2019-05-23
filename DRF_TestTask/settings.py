@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+    'django_filters',
 
     'mainapp',
     'api_v1_app',
@@ -127,3 +128,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+
+REST_FRAMEWORK = {
+    'TEST_REQUEST_DEFAULT_FORMAT': 'json',
+}
