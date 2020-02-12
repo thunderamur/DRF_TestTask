@@ -6,7 +6,7 @@
 #
 click==7.0                # via pip-tools
 django-filter==2.1.0
-django==2.2.1
+django==2.2.10
 djangorestframework==3.9.4
 faker==0.9.1              # via mixer
 mixer==6.1.3
